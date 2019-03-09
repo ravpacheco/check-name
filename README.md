@@ -1,6 +1,8 @@
 # check-name
 Simplest, cheapest and easiest API to check if there is a correct first name in a string
 
+![Gif: Say my name](/docs/images/myname.gif)
+
 # Introduction
 
 If you are creating chatbots probably you have already asked the name of some user. For instance:
@@ -29,7 +31,7 @@ This API was built in order to verify if there is a correct name in a string.
 # How to use
 
 Base URL for all endpoints
-`https://cat-fact.herokuapp.com`
+`https://check-name.herokuapp.com/`
 
 *The response time will likely be a few seconds long on the first request, because this app is running on a free Heroku dyno. Subsequent requests will behave as normal.*
 
