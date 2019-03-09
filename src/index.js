@@ -22,18 +22,18 @@ app.post('/verify', function (req, res) {
     let name = req.body.name;
     console.log(name);
     res.send('Got a POST request')
-  })
+})
 
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
     console.log(`Express started on port ${port}`);
 
     var parser = parse({ delimiter: ',' }, function (err, data) {
-        
+
         data.forEach(element => {
-            namesDb[element[0]] = element;   
+            namesDb[element[0]] = element;
         })
-        console.log(namesDb['Nome']);
+        console.log(namesDb['PACHECO']);
     });
 
     fs.createReadStream(__dirname + '/ibge2010-names.csv').pipe(parser);
