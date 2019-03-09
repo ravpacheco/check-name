@@ -1,0 +1,26 @@
+{
+  "name": "check-name",
+  "version": "1.0.0",
+  "description": "Simple API to check if there is a name in a string",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravpacheco/check-name.git"
+  },
+  "keywords": [
+    "bots"
+  ],
+  "author": "ravpacheco",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ravpacheco/check-name/issues"
+  },
+  "homepage": "https://github.com/ravpacheco/check-name#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
