@@ -37,10 +37,15 @@ Retrieve the analyze about some name.
 | name | String | 'Rafael Pacheco'   |       | The name (or string) to be verified |
 
 ##### Example request
-`POST /verify/`  
+
+```http
+POST /verify/  
 Content-Type: application/json
 
-{"name": "Rafael Pacheco"}
+{
+    "name": "Rafael Pacheco"
+}
+```
 
 ##### Example response
 ```
