@@ -14,10 +14,14 @@ Send a new name to be approval.
 | name | String | 'Rafael Pacheco'   |       | The name (or string) to be verified |
 
 ##### Example request
-`POST /verify/`  
+```http
+POST /verify/  
 Content-Type: application/json
 
-{"name": "Turing"}
+{ 
+    "name": "Turing"
+}
+```
 
 ##### Example response
 ```
