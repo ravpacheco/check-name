@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var VerifyService = require('./verifyService');
 
 var app = express();
+app.disable('x-powered-by')
 
 app.use(bodyParser.json()); // for parsing application/json
 

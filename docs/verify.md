@@ -17,7 +17,7 @@ Retrieve the analyze about some name.
 `GET /verify/Rafael Pacheco`
 
 ##### Example response
-```
+```json
 {
     "name": "Rafael Pacheco",
     "score": 1,
@@ -48,7 +48,7 @@ Content-Type: application/json
 ```
 
 ##### Example response
-```
+```json
 {
     "name": "Rafael XXXX",
     "score": 0.5,
