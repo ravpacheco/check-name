@@ -35,6 +35,12 @@ Base URL for all endpoints
 
 *The response time will likely be a few seconds long on the first request, because this app is running on a free Heroku dyno. Subsequent requests will behave as normal.*
 
+Easiast way:
+
+`curl -i -X GET https://check-name.herokuapp.com/verify/Rafael%20Pacheco`
+
+If you need more details take a look the following links 👇
+
 ## Endpoints
 
 [`/verify`](docs/verify.md)
