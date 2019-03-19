@@ -1,5 +1,5 @@
 # check-name
-Simplest, cheapest and easiest API to check if there is a correct *Brazillian* first name in a string
+Simplest, cheapest and easiest API to check if there is a correct first name in a string
 
 ![Gif: Say my name](/docs/images/myname.gif)
 
@@ -26,7 +26,7 @@ Bot: Welcome, go F#%K yourself. I'm very happy to talk with you.
 Result: 😔👎
 ```
 
-This API was built in order to verify if there are correct Brazillian first names in a string.
+This API was built in order to verify if there are correct first names in a string.
 
 # How to use
 
@@ -50,14 +50,18 @@ Enable users to suggest any valid name not recognized by this API.
 
 ---
 
-By the way, this project is based on the last [Brazillian Censo](https://censo2010.ibge.gov.br/) (2010), there are more than 130,000 different first names of people in Brazil. 
+By the way, this project is based on:
+
+* **PT-BR** - the last [Brazillian Censo](https://censo2010.ibge.gov.br/) (2010), there are more than 130,000 different first names of people in Brazil. 
 The [IBGE](https://www.ibge.gov.br/) is the government institute responsible for this research. [Click here](https://censo2010.ibge.gov.br/nomes) if you want to get all the research database.
 
-**Note:** This API should work for any valid Brazillian name of a person that has been born until 2010. However, if by some reason it doesn't work properly please submit the name using this endpoint.
+* **EN-US** - National Data on the relative frequency of given names in the population of U.S. births where the individual has a Social Security Number. Tabulated based on [Social Security records](https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data) as of March 4, 2018.
+
+**Note:** This API should work for a huge number of names. However, if by some reason it doesn't work properly please submit the name using this endpoint.
 
 # Future work
 
-- [ ] Add support to names from other languages.
+- [x] Add support to names from other languages.
 - [ ] Add support to last names.
 - [ ] Suggest similar names.
 - [ ] Add names information about frequence rate, popularity, and rank.
