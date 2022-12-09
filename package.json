@@ -23,6 +23,6 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "csv-parse": "^4.4.6",
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
